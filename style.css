@@ -19,7 +19,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-
   padding: 13px 50px 13px 100px;
 }
 
@@ -27,6 +26,10 @@
   text-decoration: none;
   color: #fefdfd;
   font-family: mainFont;
+}
+
+.navBarTop span {
+  margin-left: 48px;
 }
 
 body {
@@ -58,11 +61,10 @@ h1 {
 }
 
 .dropDown {
-  background-color: #fefdfd;
   position: absolute;
   top: 0;
   z-index: 1;
-  margin-left: 600px;
+  margin-left: 900px;
 }
 
 .dropDown button {
@@ -76,16 +78,32 @@ h1 {
   outline: none;
 }
 
+.dropDown button:focus + ul {
+  opacity: 1;
+  pointer-events: all;
+}
+
 .dropDown ul {
   list-style-type: none;
-  padding-right: 18px;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.dropDown li {
+  background-color: #fefdfd;
+  padding: 6px 0px 6px 33px;
 }
 
 .dropDown a {
-  color: #005480;
   font-family: mainFont;
-  padding: 0px;
   font-size: 18px;
   padding-left: 12px;
   text-decoration: none;
+  color: #005480;
+}
+
+.dropDown a:hover {
+  text-decoration: underline;
 }
