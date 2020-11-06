@@ -96,8 +96,8 @@ nav{
 }
 
 .navBarTop span {
-  margin-right:38px;
-  margin-left: 38px;
+  margin-right:24px;
+  margin-left: 24px;
   
 }
 
@@ -135,27 +135,29 @@ nav{
 }
 
 .dropDown li {
-  background-color: #fefdfd;
+  background-color: #005480;
   list-style-type: none;
   width: 200px;
-  text-align: left;
+  text-align: center;
 }
 
 .dropDown a {
   font-family: mainFont;
   font-size: 18px;
-  color: #005480;
+  color:  #ffffff;
+  padding-right: 12px;
 }
 
 .dropDown a:hover {
   text-decoration: underline;
+  color: #93e2ff;
 }
 
 /* Main Navigation Bar*/
 
 .navBar {
   background-color: #ffffff;
-  height: 30px;
+  height: 48px;
   padding: 60px;
   width: 80%;
   margin: 0 auto;
@@ -175,8 +177,8 @@ nav{
 
 .navBar li {
   display: inline;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 12px;
+  margin-left: 12px;
 }
 
 .navBar a {
@@ -198,15 +200,40 @@ nav{
 }
 
 .bannerContainer {
-  width: 60%;
+  padding-left: 20%;
+  float: left;
+}
+
+.bannerContainer p{
   max-width: 600px;
-  margin: 0 auto;
-  padding-left: 180px;
-  text-align: left;
-  font-size: 36px;
-  padding-top: 12px;
-  padding-right: 600px;
- 
+}
+
+.bannerButton1 {
+
+  width: 200px;
+  height: 48px;
+  border: none;
+  background-color: #005480;
+  color: #005480;
+  font-family: mainFont;
+  font-size: 18px;
+  outline: none;
+  color:  #fefdfd;
+  
+}
+
+.bannerButton2 {
+
+  width: 200px;
+  height: 48px;
+  border: none;
+  background-color: #93e2ff;
+  color: #005480;
+  font-family: mainFont;
+  font-size: 18px;
+  outline: none;
+  color:  #fefdfd;
+  
 }
 
 /* Articles*/
@@ -216,3 +243,36 @@ nav{
   height: 480px;
 
 }
+
+/* Media Query */
+
+@media only screen and (max-width: 1300px) {
+  .dropDown button {
+    display: none;
+  }
+
+  .navBar a {
+    display: none;
+  }
+
+  h1{
+    float: left;
+    margin: 0;
+  }
+
+  .navBarContainer {
+    display: none;
+  }
+  
+}
+
+@media only screen and (max-width: 900px) {
+  
+ 
+  
+}
+
+
+
+
+
