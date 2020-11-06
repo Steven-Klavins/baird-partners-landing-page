@@ -6,11 +6,20 @@
 }
 
 @font-face {
+  font-family: titleFont;
+  src: url(./fonts/urw-palladio-l-roman.ttf);
+}
+
+@font-face {
   font-family: mainFont;
-  src: url(./fonts/Myriad.OTF);
+  src: url(./fonts/hind-regular.otf);
 }
 
 /* Global CSS */
+
+* {
+  text-decoration: none;
+}
 
 body {
   margin: 0;
@@ -19,7 +28,13 @@ body {
 h1 {
   display: inline;
   position: absolute;
-  padding: 12px;
+  font-family: titleFont;
+  font-size: 36px;
+  padding-left: 120px;
+}
+
+h1 span {
+  color: #0291d8;
 }
 
 /* Styling For Icons*/
@@ -37,52 +52,47 @@ h1 {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 13px 50px 13px 100px;
+  margin: 0 auto;
+  height: 60px;
+}
+
+.navBarContainer {
+  width: 80%;
+  text-align: center;
+  height: 100%;
+}
+
+.navBarContainer span {
+  padding-top: 18px;
+  display: inline-block;
 }
 
 .navBarTop a {
-  text-decoration: none;
   color: #fefdfd;
   font-family: mainFont;
 }
 
 .navBarTop strong {
-  margin-left: 48px;
   margin-right: 12px;
   font-size: 18px;
 }
 
-/* Main Navigation Bar*/
-
-.navBar {
-  background-color: #fefdfd;
-  height: 30px;
-  text-decoration: none;
-  box-shadow: 0 12px 2px -2px rgba(191, 191, 191, 0.4);
-  padding: 60px;
-}
-
-.navBar ul {
-  margin-left: 120px;
-}
-
-.navBar li {
-  text-decoration: none;
-  display: inline;
-  margin-left: 60px;
+.navBarTop span {
+  margin-right: 48px;
+  margin-left: 48px;
 }
 
 /* Drop Down Menu (Languages)*/
 
 .dropDown {
+  display: inline-block;
+  width: 160px;
   position: absolute;
-  top: 0;
-  margin-left: 900px;
 }
 
 .dropDown button {
-  width: 160px;
-  height: 48px;
+  width: 240px;
+  height: 60px;
   border: none;
   background-color: #93e2ff;
   color: #005480;
@@ -94,7 +104,8 @@ h1 {
 .dropDown button:focus + ul {
   opacity: 1;
   pointer-events: all;
-  display: block;
+  display: inline;
+  z-index: 1;
 }
 
 .dropDown ul {
@@ -103,6 +114,7 @@ h1 {
   padding: 0;
   display: none;
   pointer-events: none;
+  width: 160px;
 }
 
 .dropDown li {
@@ -114,10 +126,36 @@ h1 {
   font-family: mainFont;
   font-size: 18px;
   padding-left: 12px;
-  text-decoration: none;
   color: #005480;
 }
 
 .dropDown a:hover {
   text-decoration: underline;
+}
+
+/* Main Navigation Bar*/
+
+.navBar {
+  background-color: #fefdfd;
+  height: 30px;
+  box-shadow: 0 12px 2px -2px rgba(191, 191, 191, 0.4);
+  padding: 60px;
+}
+
+.navBar ul {
+  margin-left: 360px;
+  margin-top: 36px;
+  font-family: mainFont;
+}
+
+.navBar li {
+  display: inline;
+  margin-left: 30px;
+}
+
+.navBar a {
+  color: #005480;
+}
+.navBar a:hover {
+  color: #0291d8;
 }
