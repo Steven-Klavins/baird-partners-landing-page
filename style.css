@@ -305,6 +305,43 @@ nav{
 .articals {
   background-color: #0291d8;
   height: 480px;
+  width:100%;
+}
+
+.articleSlider{   
+  width:100%;
+  text-align:center;
+  margin-top: 30px;
+  
+}
+
+.leftArticle {
+  margin-left: 20%;
+  float:left;
+  width:202px;
+  height: 130px;
+  background-image: url(./images/01.png);
+  background-size: contain;
+
+}
+
+.centerArticle {
+  display: inline-block;
+  margin:0 auto;
+  width:202px;
+  height: 130px;
+  background-image: url(./images/02.png);
+  background-size: contain;
+}
+
+.rightArticle {
+  margin-right: 20%;
+  float:right;
+  width:202px;
+  height: 130px;
+  background-image: url(./images/03.png );
+  background-size: contain;
+  
 }
 
 /* Call Back Section */
