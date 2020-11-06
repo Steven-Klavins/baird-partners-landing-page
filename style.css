@@ -315,6 +315,7 @@ nav{
   height: 300px;
   background-color: #fefdfd;
   margin: 0 auto;
+  text-align: center;
   width: 100%;
  
 }
@@ -325,13 +326,13 @@ nav{
 
 .callBackForm {
   padding-top: 48px;
-  float: left;
-  width:50%;
+  display: inline-block;
+  width:600px;
 }
 
 .callbackTextBox {
-  float: left;
-  width:50%;
+  display: inline-block;
+  width:600px;
 }
 
 .callbackTextBox h3 {
