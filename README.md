@@ -13,6 +13,6 @@ As part of the assessment I'm only using:
 
 ## Still not complete 
 
-**footer**
+**Footer**
 **Articles**
 
