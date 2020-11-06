@@ -29,6 +29,8 @@ h1 {
   display: inline;
   font-family: titleFont;
   font-size: 36px;
+  padding-right: 30px;
+  padding-left: 46px;
 }
 
 h1 span {
@@ -55,21 +57,20 @@ nav{
   position: fixed;
   top: 0;
   width: 100%;
-  margin: 0 auto;
   height: 60px;
   
 }
 
 .navBarContainer {
-  
   text-align: center;
-  height: 100%;
-  margin: 0 auto;
 }
 
 .navBarContainer span {
-  padding-top: 18px;
-  display: inline-block;
+  top: 18px;
+  display: inline;
+  padding-left: 12px;
+  padding-right: 12px;
+
 }
 
 .navBarTop a {
@@ -78,13 +79,12 @@ nav{
 }
 
 .navBarTop strong {
- 
   font-size: 18px;
 }
 
 .navBarTop span {
-  margin-right: 21px;
-  margin-left: 21px;
+  margin-right:38px;
+  margin-left: 38px;
   
 }
 
@@ -92,7 +92,7 @@ nav{
 
 .dropDown {
   display: inline-block;
-  width: 240px;
+  width: 200px;
   
 }
 
@@ -108,10 +108,9 @@ nav{
 }
 
 .dropDown button:focus + ul {
-  opacity: 1;
+  display: list-item;
   pointer-events: all;
-  display: inline;
-  z-index: 1;
+  float:left; 
 }
 
 .dropDown ul {
@@ -124,15 +123,14 @@ nav{
 
 .dropDown li {
   background-color: #fefdfd;
-  padding: 6px 0px 6px 33px;
-  width: 207px;
+  list-style-type: none;
+  width: 200px;
   text-align: left;
 }
 
 .dropDown a {
   font-family: mainFont;
   font-size: 18px;
-  padding-left: 12px;
   color: #005480;
 }
 
@@ -164,7 +162,8 @@ nav{
 
 .navBar li {
   display: inline;
-  margin-right: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .navBar a {
