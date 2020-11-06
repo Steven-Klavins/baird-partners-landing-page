@@ -204,6 +204,7 @@ nav{
   display: none;
   font-size: 60px;
   position: absolute;
+  float: right;
   top: 68px;
   padding-left: 60px;
 }
@@ -229,7 +230,6 @@ nav{
 }
 
 .bannerButton1 {
-
   width: 200px;
   height: 48px;
   border: none;
@@ -307,8 +307,6 @@ nav{
   height: 480px;
 }
 
-/* Articles*/
-
 /* Call Back Section */
 
 .callBack {
@@ -333,10 +331,60 @@ nav{
 .callbackTextBox {
   display: inline-block;
   width:600px;
+  text-align: left;
 }
 
 .callbackTextBox h3 {
   color: #005480;
+  font-size: 36px;
+  text-align: left;
+  margin-top: 0;
+  padding-left: 60px;
+}
+
+.callBack input {
+  width:480px;
+  border: none;
+  height: 30px;
+  background-color: #005480;
+  margin-bottom: 12px;
+  
+}
+
+input[type=submit] {
+  max-width: 120px;
+  background-color: #93e2ff;
+  float: left;
+  margin-left: 60px;
+  color: #005480;
+} 
+
+input[type='number'] {
+  -moz-appearance:textfield;
+}
+
+::placeholder { 
+  color: #fefdfd;
+  padding-left: 12px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Footer Section */
+
+.footer {
+  height: 300px;
+  background-color: #005480;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.footer h3 {
+  font-family: titleFont;
 }
 
 
