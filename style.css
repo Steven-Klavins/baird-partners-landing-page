@@ -208,16 +208,6 @@ nav{
   justify-content: center;
 }
 
-.banner2 {
-  width: 100%;
-  background-image: url(./images/banner02.png);
-  height: 480px;
-  background-position: center;
-  box-shadow: 0 0 6px 0px rgb(83, 83, 83) inset;
-  justify-content: center;
-}
-
-
 .bannerContainer {
   padding-left: 20%;
   float: left;
@@ -253,6 +243,50 @@ nav{
   color:  #fefdfd;
   
 }
+
+.banner2 {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(./images/banner02.png) ;
+  height: 480px;
+  background-position: center;
+  box-shadow: 0 0 6px 0px rgb(83, 83, 83) inset;
+  justify-content: center;
+  background-position: 0px 0px;
+  padding: 0;
+  
+}
+
+.banner2 p {
+  color: #fefdfd;
+  width: 480px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.bannerContainer2 {
+  text-align: center;
+}
+
+.bannerContainer2 h2 {
+  padding-top: 100px;
+  margin: 0;
+  color: #fefdfd;
+  
+}
+
+.banner2Button {
+  width: 480px;
+  height: 48px;
+  border: none;
+  background-color: #93e2ff;
+  color: #005480;
+  font-family: mainFont;
+  font-size: 18px;
+  outline: none;
+  
+}
+
 
 /* Articles*/
 
@@ -295,6 +329,10 @@ nav{
 
   .burger {
     display: inline;
+  }
+
+  .banner2 p {
+    padding: 30px;
   }
   
 }
