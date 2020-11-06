@@ -11,7 +11,8 @@ As part of the assessment I'm only using:
 **HTML**
 **CSS**
 
-## Improvements 
+## Still not complete 
 
-The majority of improvements I would implement through javascript, however, I feel there is always room for improvement when it comes to CSS. 
+**footer**
+**Articles**
 
