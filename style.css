@@ -37,6 +37,19 @@ h1 span {
   color: #0291d8;
 }
 
+h2 {
+  font-family: mainFont;
+  color:#005480;
+  margin-bottom: 0;
+  font-size: 48px;
+}
+
+p {
+  font-family: mainFont;
+  color: #000000;
+  font-size: 1rem;
+}
+
 nav{
   margin: 0;
   padding: 0;
@@ -181,12 +194,25 @@ nav{
   height: 480px;
   background-position: center;
   box-shadow: 0 0 6px 0px rgb(83, 83, 83) inset;
+  justify-content: center;
+}
+
+.bannerContainer {
+  width: 60%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-left: 180px;
+  text-align: left;
+  font-size: 36px;
+  padding-top: 12px;
+  padding-right: 600px;
+ 
 }
 
 /* Articles*/
 
 .articals {
-  background-color: #005480;
+  background-color: #0291d8;
   height: 480px;
 
 }
