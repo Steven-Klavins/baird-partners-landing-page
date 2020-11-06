@@ -64,7 +64,6 @@ h1 {
 .dropDown {
   position: absolute;
   top: 0;
-  z-index: 1;
   margin-left: 900px;
 }
 
@@ -82,13 +81,14 @@ h1 {
 .dropDown button:focus + ul {
   opacity: 1;
   pointer-events: all;
+  display: block;
 }
 
 .dropDown ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  opacity: 0;
+  display: none;
   pointer-events: none;
 }
 
