@@ -197,6 +197,17 @@ nav{
   color: #0291d8;
 }
 
+/* Burger Menu */
+
+.burger {
+  color:  #005480;
+  display: none;
+  font-size: 60px;
+  position: absolute;
+  top: 68px;
+  padding-left: 60px;
+}
+
 /* Banner*/
 
 .banner {
@@ -269,7 +280,7 @@ nav{
 }
 
 .bannerContainer2 h2 {
-  padding-top: 100px;
+  padding-top: 60px;
   margin: 0;
   color: #fefdfd;
   
@@ -284,6 +295,7 @@ nav{
   font-family: mainFont;
   font-size: 18px;
   outline: none;
+  margin-bottom: 80px;
   
 }
 
@@ -293,21 +305,39 @@ nav{
 .articals {
   background-color: #0291d8;
   height: 480px;
-
 }
 
-/* Burger Menu */
+/* Articles*/
 
-.burger {
-  color:  #005480;
-  display: none;
-  font-size: 60px;
-  position: absolute;
-  top: 72px;
-  padding-left: 42px;
+/* Call Back Section */
+
+.callBack {
+  height: 300px;
+  background-color: #fefdfd;
+  margin: 0 auto;
+  width: 100%;
+ 
 }
 
-/* Media Query */
+.callBack p {
+  color: #000000;
+}
+
+.callBackForm {
+  padding-top: 48px;
+  float: left;
+  width:50%;
+}
+
+.callbackTextBox {
+  float: left;
+  width:50%;
+}
+
+.callbackTextBox h3 {
+  color: #005480;
+}
+
 
 @media only screen and (max-width: 1300px) {
   .dropDown button {
