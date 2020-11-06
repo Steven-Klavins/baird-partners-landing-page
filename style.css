@@ -1,3 +1,5 @@
+/* Custom Fonts */
+
 @font-face {
   font-family: icons;
   src: url(./fonts/Glyphter.ttf);
@@ -8,10 +10,26 @@
   src: url(./fonts/Myriad.OTF);
 }
 
+/* Global CSS */
+
+body {
+  margin: 0;
+}
+
+h1 {
+  display: inline;
+  position: absolute;
+  padding: 12px;
+}
+
+/* Styling For Icons*/
+
 .icons {
   font-family: icons;
   color: #93e2ff;
 }
+
+/* Top Navigation/Information Bar*/
 
 .navBarTop {
   background-color: #005480;
@@ -31,17 +49,10 @@
 .navBarTop strong {
   margin-left: 48px;
   margin-right: 12px;
+  font-size: 18px;
 }
 
-body {
-  margin: 0;
-}
-
-h1 {
-  display: inline;
-  position: absolute;
-  padding: 12px;
-}
+/* Main Navigation Bar*/
 
 .navBar {
   background-color: #fefdfd;
@@ -60,6 +71,8 @@ h1 {
   display: inline;
   margin-left: 60px;
 }
+
+/* Drop Down Menu (Languages)*/
 
 .dropDown {
   position: absolute;
