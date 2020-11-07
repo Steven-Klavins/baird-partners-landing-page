@@ -247,6 +247,49 @@ nav {
   color: #fefdfd;
 }
 
+
+/* Articles*/
+
+.articals {
+  background-color: #0291d8;
+  height: 480px;
+  width: 100%;
+}
+
+.articleSlider {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.articleSlider p {
+  width: 25%;
+  max-width: 300px;
+  height: 205px;
+  justify-content: space-between;
+  color: #fefdfd;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.articleSlider img {
+  width: 25%;
+  max-width: 300px;
+  padding: 12px;
+}
+
+.articleSlider img:hover  {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+/* Members */
+
 .banner2 {
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -289,37 +332,6 @@ nav {
   font-size: 18px;
   outline: none;
   margin-bottom: 80px;
-}
-
-/* Articles*/
-
-.articals {
-  background-color: #0291d8;
-  height: 480px;
-  width: 100%;
-}
-
-.articleSlider {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-}
-
-.articleSlider p {
-  width: 25%;
-  max-width: 300px;
-  height: 205px;
-  justify-content: space-between;
-  color: #fefdfd;
-  padding: 12px;
-  font-size: 14px;
-}
-
-.articleSlider img {
-  width: 25%;
-  max-width: 300px;
-  padding: 12px;
 }
 
 /* Call Back Section */
