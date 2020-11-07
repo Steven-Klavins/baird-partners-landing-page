@@ -281,6 +281,7 @@ nav{
 
 .banner2Button {
   width: 50%;
+  max-width: 480px;
   height: 48px;
   border: none;
   background-color: #93e2ff;
@@ -462,6 +463,7 @@ input::-webkit-inner-spin-button {
   .banner2 p {
     padding-top: 12px;
     width: 80%;
+    padding-bottom: 30px;
   }
 
   .banner2Button {
