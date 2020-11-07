@@ -39,7 +39,7 @@ h1 span {
 
 h2 {
   font-family: mainFont;
-  color:#005480;
+  color: #005480;
   margin-bottom: 0;
   font-size: 48px;
 }
@@ -59,7 +59,7 @@ p {
   font-size: 1rem;
 }
 
-nav{
+nav {
   margin: 0;
   padding: 0;
 }
@@ -104,15 +104,15 @@ nav{
 }
 
 .navBarTop span {
-  margin-right:20px;
-  margin-left: 20px; 
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 /* Drop Down Menu (Languages)*/
 
 .dropDown {
   display: inline-block;
-  width: 200px;  
+  width: 200px;
 }
 
 .dropDown button {
@@ -129,7 +129,7 @@ nav{
 .dropDown button:focus + ul {
   display: list-item;
   pointer-events: all;
-  float:left; 
+  float: left;
 }
 
 .dropDown ul {
@@ -150,7 +150,7 @@ nav{
 .dropDown a {
   font-family: mainFont;
   font-size: 18px;
-  color:  #ffffff;
+  color: #ffffff;
   padding-right: 12px;
 }
 
@@ -170,18 +170,18 @@ nav{
 }
 
 .navBar ul {
-  width: 100%; 
+  width: 100%;
   text-align: center;
   padding: 0;
   padding-top: 36px;
   margin: 0 auto;
   font-family: mainFont;
-  display: block; 
+  display: block;
 }
 
 .navBar li {
   display: inline;
-  
+
   margin-right: 12px;
   margin-left: 12px;
 }
@@ -209,13 +209,13 @@ nav{
   text-align: left;
 }
 
-.bannerContainer p{
+.bannerContainer p {
   max-width: 600px;
   margin: 0;
   padding-bottom: 30px;
 }
 
-.bannerContainer h2{
+.bannerContainer h2 {
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 36px;
@@ -230,9 +230,8 @@ nav{
   font-family: mainFont;
   font-size: 18px;
   outline: none;
-  color:  #fefdfd;
+  color: #fefdfd;
   margin-right: 30px;
-  
 }
 
 .bannerButton2 {
@@ -244,20 +243,19 @@ nav{
   font-family: mainFont;
   font-size: 18px;
   outline: none;
-  color:  #fefdfd;
-  
+  color: #fefdfd;
 }
 
 .banner2 {
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(./images/banner02.png) ;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/banner02.png);
   height: 480px;
   background-position: center;
   box-shadow: 0 0 6px 0px rgb(83, 83, 83) inset;
   justify-content: center;
   background-position: 0px 0px;
   padding: 0;
-  
 }
 
 .banner2 p {
@@ -276,7 +274,6 @@ nav{
   padding-top: 60px;
   margin: 0;
   color: #fefdfd;
-  
 }
 
 .banner2Button {
@@ -290,7 +287,6 @@ nav{
   font-size: 18px;
   outline: none;
   margin-bottom: 80px;
-  
 }
 
 /* Articles*/
@@ -298,11 +294,11 @@ nav{
 .articals {
   background-color: #0291d8;
   height: 480px;
-  width:100%;
+  width: 100%;
 }
 
-.articleSlider{   
-  width:80%;
+.articleSlider {
+  width: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -322,7 +318,6 @@ nav{
   width: 25%;
   max-width: 300px;
   padding: 12px;
-  
 }
 
 /* Call Back Section */
@@ -340,6 +335,7 @@ nav{
   display: inline-block;
   color: #000000;
   text-align: left;
+  padding-left: 12px;
 }
 
 .callbackTextBox p {
@@ -365,7 +361,7 @@ nav{
   text-align: left;
   margin-top: 0;
 }
- 
+
 .callBack input {
   margin: 0;
   width: 300px;
@@ -376,22 +372,25 @@ nav{
   float: left;
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: #93e2ff;
   color: #005480;
   width: 150px;
-} 
-
-input[type='number'] {
-  -moz-appearance:textfield;
+  outline: none;
 }
 
-input, select, textarea{
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input,
+select,
+textarea {
   color: #fefdfd;
   padding-left: 12px;
 }
 
-::placeholder { 
+::placeholder {
   color: #fefdfd;
   padding-left: 12px;
 }
@@ -424,8 +423,12 @@ input::-webkit-inner-spin-button {
 }
 
 .footerContainer {
-width: 80%;
-margin: 0 auto;
+  background-color: #005480;
+  height: 300px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #0291d8;
 }
 
 .footerLeft {
@@ -439,7 +442,7 @@ margin: 0 auto;
 }
 
 .footerRight p {
-padding-top: 30px;
+  padding-top: 30px;
 }
 
 .footerLeft li {
@@ -457,34 +460,58 @@ padding-top: 30px;
   width: 40%;
 }
 
+.footerRight p {
+  padding: 12px;
+  margin: 0;
+  padding-left: 46px;
+}
+
 .footer ul {
   display: inline-block;
   padding: 0;
   width: 150px;
   vertical-align: top;
-  
+}
+
+.footer span {
+  color: #fefdfd;
+  font-family: mainFont;
 }
 
 .footerLinks {
   max-height: 100px;
 }
 
-.footerRight input[type=text] {
-    background-color: #fefdfd;
-    color: #005480;
-    width: 300px;
-    border: none;
-    height: 30px;
+.emailForm {
+  max-width: 500px;
+  max-height: 40px;
+  min-width: 186px;
 }
 
-.footerRight input[type=submit] {
+.footerRight input[type="text"] {
+  background-color: #fefdfd;
+  color: #005480;
+  width: 40%;
+  border: none;
+  height: 30px;
+  display: inline-block;
+  margin: 0;
+  padding: 0px;
+}
+
+.footerRight button {
   background-color: #93e2ff;
   color: #005480;
-  width: 150px;
+  width: 60px;
+  height: 30px;
   border: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0px;
+  outline: none;
 }
 
-.footerRight ::placeholder { 
+.footerRight ::placeholder {
   color: #005480;
   padding-left: 12px;
   font-family: mainFont;
@@ -500,7 +527,7 @@ padding-top: 30px;
 
 .mobile {
   display: none;
-  position:fixed;
+  position: fixed;
   right: 18px;
   top: 18px;
   z-index: 2;
@@ -511,6 +538,15 @@ padding-top: 30px;
   color: #fefdfd;
 }
 
+@media only screen and (max-width: 963px) {
+  .bannerContainer h2 {
+    padding-bottom: 12px;
+  }
+
+  .footer h3 {
+    padding-bottom: 0px;
+  }
+}
 @media only screen and (max-width: 996px) {
   .dropDown button {
     display: none;
@@ -520,12 +556,18 @@ padding-top: 30px;
     margin-top: 18px;
     justify-content: center;
   }
-  
+
+  .footer {
+    height: 700px;
+  }
+  .footerContainer {
+    height: 460px;
+  }
 }
 
 @media only screen and (max-width: 800px) {
   .navBarContainer {
-   display: none;
+    display: none;
   }
   .mobile {
     display: inline;
@@ -539,11 +581,6 @@ padding-top: 30px;
   .navBar {
     padding-left: 0;
     padding-right: 0;
-  }
-
-
-  .bannerContainer h2{
-    padding-bottom: 12px;
   }
 
   .banner2 p {
@@ -562,7 +599,7 @@ padding-top: 30px;
   }
 
   .footer {
-    height: 480px;
+    height: 520px;
   }
 }
 
@@ -573,10 +610,6 @@ padding-top: 30px;
   .articleSlider p {
     font-size: 12px;
   }
-
-  .footer h3 {
-    padding-bottom: 0px;
-  }
 }
 
 @media only screen and (max-width: 465px) {
@@ -585,14 +618,5 @@ padding-top: 30px;
   }
   .banner {
     height: 520px;
+  }
 }
-
-}
-
-
-
-
-
-
-
-
