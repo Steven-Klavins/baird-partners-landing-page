@@ -162,7 +162,7 @@ nav{
 
 .navBar {
   background-color: #ffffff;
-  height: 48px;
+  height: 24px;
   padding: 60px;
   width: 80%;
   margin: 0 auto;
@@ -262,7 +262,7 @@ nav{
 
 .banner2 p {
   color: #fefdfd;
-  width: 480px;
+  width: 40%;
   margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -280,7 +280,7 @@ nav{
 }
 
 .banner2Button {
-  width: 480px;
+  width: 50%;
   height: 48px;
   border: none;
   background-color: #93e2ff;
@@ -343,12 +343,12 @@ nav{
 .callBackForm {
   padding-top: 48px;
   display: inline-block;
-  width:600px;
+  width:40%;
 }
 
 .callbackTextBox {
   display: inline-block;
-  width:600px;
+  width:40%;
   text-align: left;
 }
 
@@ -361,7 +361,7 @@ nav{
 }
 
 .callBack input {
-  width:480px;
+  width:30%;
   border: none;
   height: 30px;
   background-color: #005480;
@@ -442,10 +442,31 @@ input::-webkit-inner-spin-button {
    display: none;
   }
   .mobile {
-    display: block;
+    display: inline;
   }
+
+  h1{
+   padding: 12px;
+  }
+
+  .navBar {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+
   .bannerContainer h2{
     padding-bottom: 12px;
+  }
+
+  .banner2 p {
+    padding-top: 12px;
+    width: 80%;
+  }
+
+  .banner2Button {
+    width: 80%;
+    height: 60px;
   }
 }
 
