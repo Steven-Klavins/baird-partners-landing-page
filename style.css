@@ -472,7 +472,22 @@ padding-top: 30px;
 .footerRight input[type=text] {
     background-color: #fefdfd;
     color: #005480;
-    width: 150px;
+    width: 300px;
+    border: none;
+    height: 30px;
+}
+
+.footerRight input[type=submit] {
+  background-color: #93e2ff;
+  color: #005480;
+  width: 150px;
+  border: none;
+}
+
+.footerRight ::placeholder { 
+  color: #005480;
+  padding-left: 12px;
+  font-family: mainFont;
 }
 
 .footer h3 {
