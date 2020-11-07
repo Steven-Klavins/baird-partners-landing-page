@@ -544,7 +544,7 @@ input::-webkit-inner-spin-button {
   }
 
   .footer h3 {
-    padding-bottom: 0px;
+    padding-bottom: 12px;
   }
 }
 @media only screen and (max-width: 996px) {
