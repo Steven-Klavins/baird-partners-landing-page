@@ -425,6 +425,7 @@ input::-webkit-inner-spin-button {
   color: #fefdfd;
 }
 
+/* Media Quiries */
 
 @media only screen and (max-width: 996px) {
   .dropDown button {
@@ -446,8 +447,9 @@ input::-webkit-inner-spin-button {
     display: inline;
   }
 
-  h1{
-   padding: 12px;
+  .navBar h1 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .navBar {
