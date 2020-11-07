@@ -328,11 +328,12 @@ nav{
 /* Call Back Section */
 
 .callBack {
-  height: 300px;
+  height: 240px;
   background-color: #fefdfd;
   width: 100%;
   text-align: center;
   justify-content: center;
+  padding-top: 30px;
 }
 
 .callbackTextBox {
@@ -475,6 +476,10 @@ input::-webkit-inner-spin-button {
   .banner2Button {
     width: 80%;
     height: 60px;
+  }
+
+  .callBack {
+    height: 480px;
   }
 }
 
