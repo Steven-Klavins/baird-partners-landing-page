@@ -80,7 +80,6 @@ nav{
   top: 0;
   width: 100%;
   height: 60px;
-  
 }
 
 .navBarContainer {
@@ -92,7 +91,6 @@ nav{
   display: inline;
   padding-left: 12px;
   padding-right: 12px;
-
 }
 
 .navBarTop a {
@@ -102,20 +100,19 @@ nav{
 
 .navBarTop strong {
   font-size: 18px;
+  padding-right: 6px;
 }
 
 .navBarTop span {
-  margin-right:24px;
-  margin-left: 24px;
-  
+  margin-right:20px;
+  margin-left: 20px; 
 }
 
 /* Drop Down Menu (Languages)*/
 
 .dropDown {
   display: inline-block;
-  width: 200px;
-  
+  width: 200px;  
 }
 
 .dropDown button {
@@ -158,7 +155,6 @@ nav{
 }
 
 .dropDown a:hover {
-  text-decoration: underline;
   color: #93e2ff;
 }
 
@@ -180,12 +176,12 @@ nav{
   padding-top: 36px;
   margin: 0 auto;
   font-family: mainFont;
-  display: block;
-  
+  display: block; 
 }
 
 .navBar li {
   display: inline;
+  
   margin-right: 12px;
   margin-left: 12px;
 }
@@ -197,18 +193,6 @@ nav{
   color: #0291d8;
 }
 
-/* Burger Menu */
-
-.burger {
-  color:  #005480;
-  display: none;
-  font-size: 60px;
-  position: absolute;
-  float: right;
-  top: 68px;
-  padding-left: 60px;
-}
-
 /* Banner*/
 
 .banner {
@@ -217,16 +201,24 @@ nav{
   height: 480px;
   background-position: center;
   box-shadow: 0 0 6px 0px rgb(83, 83, 83) inset;
-  justify-content: center;
 }
 
 .bannerContainer {
-  padding-left: 20%;
-  float: left;
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
 }
 
 .bannerContainer p{
   max-width: 600px;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.bannerContainer h2{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 36px;
 }
 
 .bannerButton1 {
@@ -239,6 +231,7 @@ nav{
   font-size: 18px;
   outline: none;
   color:  #fefdfd;
+  margin-right: 30px;
   
 }
 
@@ -299,7 +292,6 @@ nav{
   
 }
 
-
 /* Articles*/
 
 .articals {
@@ -309,38 +301,38 @@ nav{
 }
 
 .articleSlider{   
-  width:100%;
-  text-align:center;
-  margin-top: 30px;
-  
+  width:80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.articleSlider p {
+  max-width: 300px;
+  max-height: 195px;
+  justify-content: space-between;
+}
+
+.articleSlider p {
+  justify-content: space-between;
+  color: #fefdfd;
+  padding: 12px;
 }
 
 .leftArticle {
-  margin-left: 20%;
-  float:left;
-  width:202px;
-  height: 130px;
-  background-image: url(./images/01.png);
-  background-size: contain;
+  background-image: url(./images/02.png);
+  object-fit: cover;
 
 }
 
 .centerArticle {
-  display: inline-block;
-  margin:0 auto;
-  width:202px;
-  height: 130px;
-  background-image: url(./images/02.png);
-  background-size: contain;
+  background-image: url(./images/03.png);
+  object-fit: cover;
 }
 
 .rightArticle {
-  margin-right: 20%;
-  float:right;
-  width:202px;
-  height: 130px;
-  background-image: url(./images/03.png );
-  background-size: contain;
+  background-image: url(./images/01.png );
+  object-fit: cover;
   
 }
 
@@ -430,39 +422,65 @@ input::-webkit-inner-spin-button {
 }
 
 
-@media only screen and (max-width: 1300px) {
+.mobile {
+  display: none;
+  position:absolute;
+  right: 18px;
+  top: 18px;
+  z-index: 2;
+}
+
+.mobile a {
+  font-family: mainFont;
+  color: #fefdfd;
+}
+
+
+@media only screen and (max-width: 996px) {
   .dropDown button {
     display: none;
   }
 
-  .navBar a {
-    display: none;
-  }
-
-  h1{
-    float: left;
-    margin: 0;
-  }
-
   .navBarContainer {
-    display: none;
-  }
-
-  .burger {
-    display: inline;
-  }
-
-  .banner2 p {
-    padding: 30px;
+    margin-top: 18px;
+    justify-content: center;
   }
   
 }
 
-@media only screen and (max-width: 900px) {
-  
- 
-  
+@media only screen and (max-width: 800px) {
+  .navBarContainer {
+   display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .bannerContainer h2{
+    padding-bottom: 12px;
+  }
 }
+
+@media only screen and (max-width: 645px) {
+  .navBar {
+    height: 80px;
+  }
+  .articleSlider p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+  .navBar {
+    height: 120px;
+  }
+  .banner {
+    height: 520px;
+}
+
+}
+
+
+
 
 
 
