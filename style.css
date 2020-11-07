@@ -424,7 +424,7 @@ input::-webkit-inner-spin-button {
 
 .mobile {
   display: none;
-  position:absolute;
+  position:fixed;
   right: 18px;
   top: 18px;
   z-index: 2;
