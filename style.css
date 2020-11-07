@@ -308,33 +308,22 @@ nav{
 }
 
 .articleSlider p {
+  width: 25%;
   max-width: 300px;
-  max-height: 195px;
-  justify-content: space-between;
-}
-
-.articleSlider p {
+  height: 205px;
   justify-content: space-between;
   color: #fefdfd;
   padding: 12px;
+  font-size: 14px;
 }
 
-.leftArticle {
-  background-image: url(./images/02.png);
-  object-fit: cover;
-
-}
-
-.centerArticle {
-  background-image: url(./images/03.png);
-  object-fit: cover;
-}
-
-.rightArticle {
-  background-image: url(./images/01.png );
-  object-fit: cover;
+.articleSlider img {
+  width: 25%;
+  max-width: 300px;
+  padding: 12px;
   
 }
+
 
 /* Call Back Section */
 
