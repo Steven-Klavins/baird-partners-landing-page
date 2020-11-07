@@ -400,6 +400,11 @@ input[type='number'] {
   -moz-appearance:textfield;
 }
 
+input, select, textarea{
+  color: #fefdfd;
+  padding-left: 12px;
+}
+
 ::placeholder { 
   color: #fefdfd;
   padding-left: 12px;
