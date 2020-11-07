@@ -423,6 +423,11 @@ input::-webkit-inner-spin-button {
   width: 100%;
 }
 
+.footerContainer {
+width: 80%;
+margin: 0 auto;
+}
+
 .footerLeft {
   display: inline-block;
   width: 40%;
