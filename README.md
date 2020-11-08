@@ -11,8 +11,3 @@ As part of the assessment I'm only using:
 **HTML**
 **CSS**
 
-## Still not complete 
-
-**Footer**
-**Articles**
-
