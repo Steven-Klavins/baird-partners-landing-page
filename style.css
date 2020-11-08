@@ -256,6 +256,21 @@ nav {
   width: 100%;
 }
 
+.readAllArticals {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.readAllArticals a {
+  font-family: mainFont;
+  color: #fefdfd;
+  padding-left: 50%;
+}
+
+.readAllArticals a:hover {
+ color: #93e2ff;
+}
+
 .articleSlider {
   width: 80%;
   margin: 0 auto;
@@ -453,6 +468,10 @@ input::-webkit-inner-spin-button {
 
 .footerLeft a {
   color: #fefdfd;
+}
+
+.footerLeft a:hover {
+  color: #93e2ff;
 }
 
 .footerRight p {
