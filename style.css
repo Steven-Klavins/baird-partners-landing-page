@@ -98,6 +98,10 @@ nav {
   font-family: mainFont;
 }
 
+.navBarTop a:hover {
+  color: #93e2ff;
+}
+
 .navBarTop strong {
   font-size: 18px;
   padding-right: 6px;
