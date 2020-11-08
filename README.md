@@ -15,7 +15,7 @@ As part of the assessment I'm only using:
 **HTML**
 **CSS**
 
-## Javascript needed for;
+## Javascript needed for
 * Image slider 
 * Return to top button
 * Language switcher
