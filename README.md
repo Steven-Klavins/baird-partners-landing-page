@@ -27,3 +27,6 @@ The icons for the project were created using [Glyphter](https://glyphter.com/) a
 <p align="center">
 <img src="icons.png" alt="icons" width="600"/>
 </p>
+
+**Media Queries**
+There are a number of media queries in the CSS, including two classes (mobile/mobile a) to enable the page to scale correctly.
