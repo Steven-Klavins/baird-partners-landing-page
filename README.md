@@ -16,8 +16,9 @@ As part of the assessment I'm only using:
 **CSS**
 
 ## Javascript needed for;
-* Image Slider 
+* Image slider 
 * Return to top button
+* Language switcher
 
 ## Notes
 
