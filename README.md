@@ -4,7 +4,9 @@
 
 As part of a technical assessment, it has been my task to recreate the [Baird Partners Landing Page](https://www.bairdpartners.com/).
 
-
+<p align="center">
+<img src="Screenshot.png" alt="screenshot" width="600"/>
+</p>
 
 ## Tech Used
 
